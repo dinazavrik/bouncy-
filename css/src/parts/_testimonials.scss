@@ -1,0 +1,42 @@
+.testimonials {
+	padding-top: 80px;
+	&__title {
+		margin-top: 0;
+		margin-bottom: 40px;
+		text-align: center;
+		color: $black-col;
+		font-family: $title-font;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 12px;
+		text-transform: uppercase;
+	}
+	&__sub-title {
+		margin-top: 0;
+		margin-bottom: 110px;
+		text-align: center;
+		color: $grey-col;
+		font-family: $main-font;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	&__img {
+		width: 20%;
+	}
+	&__info {
+		width: 80%;
+	}
+}
+
+.slider__sub-title--elign {
+	text-align: left;
+}
+
+.slider__title--color {
+	text-align: left;
+	color: #19bd9a;
+}
+
+.slider__more--eling {
+	text-align: left;
+}

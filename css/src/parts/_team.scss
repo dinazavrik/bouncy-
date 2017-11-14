@@ -1,0 +1,69 @@
+.team {
+	padding-top: 100px;
+	&__title {
+		margin-top: 0;
+		margin-bottom: 40px;
+		text-align: center;
+		color: $black-col;
+		font-family: $title-font;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 12px;
+		text-transform: uppercase;
+	}
+	&__sub-title {
+		margin-top: 0;
+		margin-bottom: 60px;
+		text-align: center;
+		color: $grey-col;
+		font-family: $main-font;
+		font-size: 14px;
+		line-height: 25px;
+	}
+}
+
+.styles {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+}
+
+.slider__img {
+	width: 50%;
+}
+
+.slider__info {
+	width: 50%;
+}
+
+.slider__title {
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: right;
+	color: $dblack-col;
+	font-family: $main-font;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.slider__more {
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: right;
+	color: $grey-col;
+	font-family: $title-font;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.slider__sub-title {
+	margin-top: 0;
+	text-align: right;
+	color: $grey-col;
+	font-family: $main-font;
+	font-size: 14px;
+	line-height: 25px;
+}
